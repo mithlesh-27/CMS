@@ -1,0 +1,74 @@
+.home-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: lightblue;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .home-container h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .home-container p {
+    margin-bottom: 2rem;
+  }
+  
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .feature {
+    flex: 1 1 200px;
+    margin: 1rem;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .feature h3 {
+    margin-top: 0;
+  }
+  
+  .feature p {
+    margin: 0.5rem 0;
+  }
+  
+  .footer {
+    background-color: #f7f7f7; /* light gray background */
+    padding: 10px; /* increased padding for better readability */
+    text-align: center; /* center the text */
+    clear: both; /* make sure the footer clears any floats */
+    position: fixed; /* fix the footer to the bottom of the page */
+    bottom: 0; /* position the footer at the bottom of the page */
+    left: 0; /* position the footer at the left edge of the page */
+    width: 100%; /* make the footer full-width */
+    box-sizing: border-box; /* fix the width to include padding and border */
+  }
+  
+  /* Style the links in the footer */
+  .footer ul {
+    list-style: none; /* remove bullet points */
+    margin: 0; /* remove margin */
+    padding: 0; /* remove padding */
+  }
+  
+  .footer li {
+    display: inline-block; /* display links inline */
+    margin-right: 20px; /* add some space between links */
+  }
+  
+  .footer a {
+    color: #337ab7; /* blue link color */
+    text-decoration: none; /* remove underline */
+  }
+  
+  .footer a:hover {
+    color: #23527c; /* darker blue on hover */
+  }
